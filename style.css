@@ -1,0 +1,507 @@
+.img1 {
+
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    top: 156px;
+    left: 157px;
+}
+.img2 {     
+
+    position: absolute;
+    width: 1050px;
+    height: 600px;
+    top: 50px;
+    left: 800px;
+}
+._1keusz4ZyZirGepu6hHG0D{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+._2IcIujaWiO5h68dVvpO_tQ {
+    
+    position: absolute;
+    top: 157px;
+    left: 205px;
+    margin-top: 12px;
+    font-family: 'Thick_Calibri', serif;
+    line-height: 110%;
+    font-size: 130%;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: #fff;
+}
+._2IcIujaWiO5h68dVvpO_ty {
+
+    position: absolute;
+    top: 185px;
+    left: 160px;
+    margin-top: 10px;
+    font-family: 'Reaver', serif;
+    line-height: 110%;
+    font-size: 500%;
+    font-weight:700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+}
+._2IcIujaWiO5h68dVvpO_tw {
+
+    position: absolute;
+    top: 276px;
+    left: 158px;
+    margin-top: 5px;
+    font-family: 'Calibri';
+    font-weight: bold;
+    line-height: 100%;
+    font-size: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(165, 224, 243)
+
+}
+._2IcIujaWiO5h68dVvpO_te {
+    font-family: 'Calibri', serif;
+    position: absolute;
+    top: 290px;
+    left: 157px;
+    margin-top: 14px;
+    color: #eee;
+    font-weight: 100;
+    font-size: 24px;
+    letter-spacing: 0px;
+    white-space: normal;
+    width: 30%;
+
+}
+.bold {
+
+    font-weight: bold;
+
+}
+.attack {
+
+    display: block;
+    position: absolute;
+    color: #959595;
+    letter-spacing: 2.5px;
+    font-family: 'Calibri', serif;
+    margin-top: 12px;
+    text-transform: uppercase;
+    font-size: 100%;
+    line-height: 100%;
+    top: 500px;
+    left: 155px;
+    font-weight: bold; 
+}
+.img3 {
+
+     position: absolute;
+     top: 543px;
+     left: 158px;
+     width: 25px;
+     height: 25px;
+
+}
+.type_attack {
+    
+    position: absolute;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Calibri', serif;
+    font-weight: bold;
+    line-height: 100%;
+    text-transform: uppercase;
+    top: 547px;
+    left: 192px;
+
+}
+.difficulty {
+
+    position: absolute;
+    color: #959595;
+    letter-spacing: 2.5px;
+    font-family: 'Calibri', serif;
+    margin-top: 12px;
+    text-transform: uppercase;
+    font-size: 100%;
+    line-height: 100%;
+    top: 585px;
+    left: 155px;
+    font-weight: bold; 
+}
+.rhombus {
+
+    position: absolute;
+    top: 630px;
+    left: 155px;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border: 1px solid #fff;
+    transform: rotateZ(45deg)
+
+}
+.rhombus1 { position: absolute;
+    width: 15px;
+    height: 15px;
+    margin-left: 15px; ;
+    background-color: white;
+    border: 1px solid #fff;
+    transform: rotateZ(45deg);
+    left: 219px;
+    top: 630px;
+}
+.rhombus2 {
+
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+    background-color: white;
+    border: 1px solid #fff;
+    transform: rotateZ(45deg);
+    left: 180px;
+    top: 630px;
+}
+.spos {
+
+    position: absolute;
+    top: 610px;
+    right: 520px; 
+    margin-top: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Calibri', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 24px
+
+}
+.talents {
+
+    position: absolute;
+    margin-right: 8px;
+    bottom: 400px;
+    right: -500px;
+
+}
+
+
+
+
+.container {
+
+  position: relative;
+  width: 300px;
+  height: auto; /* или фиксированная высота */
+
+}
+
+.image1 {
+
+  display: block;
+  width: 90px;
+  height: 80px;
+  position: relative;
+  top: 712px;
+  left: 987px;
+
+}
+
+.image2 {
+
+    display: block;
+  position: absolute;
+  top: 400px; /* смещение вверх относительно первой */
+  left: 810px;
+  width: 444px;
+  height: auto;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 10;
+  pointer-events: none;
+
+}
+
+.container:hover .image2 {
+
+  opacity: 1;
+}
+
+.container1 {
+
+  position: relative;
+  width: 60px;
+  height: auto; /* или фиксированная высота */
+
+}
+
+.image3 {
+
+  display: block;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  top: 630px;
+  left: 1080px;
+}
+
+.image4 {
+
+  position: absolute;
+  top: 400px; /* смещение вверх относительно первой */
+  left:970px;
+  width: 300px;
+  height: auto;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.container1:hover .image4 {
+
+  opacity: 1;
+}
+
+.container2 {
+
+  position: relative;
+  width: 60px;
+  height: auto; /* или фиксированная высота */
+}
+
+.image5 {
+
+  display: block;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  top: 550px;
+  left: 1168px;
+}
+
+.video {
+
+    margin-left: 1005px;
+    margin-top:78px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+
+}
+
+.image6{
+
+  position: absolute;
+  top: 320px; /* смещение вверх относительно первой */
+  left: 1026px;
+  width: 301px;
+  height: auto;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+  z-index: 10;
+  pointer-events: none;
+
+}
+
+.container2:hover .image6,
+.container2:hover .video {
+
+    opacity: 1;
+} 
+
+.container3 {
+
+    position: relative;
+    width: 60px;
+    height: auto;
+
+}
+
+.image7 {
+
+    display: block;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 217px;
+    left: 1260px;
+}
+
+.video1 {
+    position: absolute;
+    left: 1090.5px;
+    top: -360px;
+    pointer-events: none;
+    opacity:0;
+    transition: opacity 0.3s ease;
+
+}
+
+.image8 {
+
+    position: absolute;
+    top: -200px;
+    left: 1110px;
+    width: 301px;
+    height: auto;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.container3:hover .image8,
+.container3:hover .video1 {
+
+   opacity: 1;
+
+}
+
+.container4 {
+
+    position: relative;
+    width: 60px;
+    height: auto;
+}
+.image9 {
+
+    display: block;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 137px;
+    left: 1350px;
+}
+.video2 {
+
+    position: absolute;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    left: 1210px;
+    top: -312px;
+}
+.image10 {
+
+    position: absolute;
+    top: -150px;
+    right: -1470px;
+    width: 301px;
+    height: auto;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    z-index: 10;
+    pointer-events: none;
+
+}
+.container4:hover .image10,
+.container4:hover .video2 {
+
+    opacity: 1;
+}
+.container5 {
+
+    position: relative;
+    width: 60px;
+    height: auto;
+}
+.img4 {
+
+    display: block;
+    width: 80px;
+    height:80px;
+    position: relative;
+    top: 57px;
+    left: 1440px;   
+
+}
+.video3 {
+
+    position: absolute;
+    top: -412px;
+    left: 1314px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opcity 0.3s ease;
+
+}
+.img5 {
+
+    position: absolute;
+    top: -250px; 
+    left: 1333px;
+    width: 301px;
+    height: auto;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    z-index: 10;
+    pointer-events: none;
+
+}
+.container5:hover .img5,
+.container5:hover .video3 {
+    
+    opacity: 1;
+}
+.container6 {
+
+    position: relative;
+    width: 60px;
+    height: auto;
+}
+.img6 {
+
+    display: block;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: -24px;
+    left: 1529px;
+}
+.video4 {
+
+    position: absolute;
+    top: -430px;
+    left: 1381px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.img7 {
+
+    position: absolute;
+    top: -260px;
+    left: 1400px;
+    width: 301px;
+    height: auto;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    z-index: 10;
+    pointer-events: none;
+
+}
+.container6:hover .img7,
+.container6:hover .video4 {
+    opacity: 1;
+}
+.background {
+
+    width: 1897px;
+    height: 200px;
+    background-color: #232526;
+
+}
+
+.hero_morphling {
+    top: 840px;
+    left: 150px;
+    position: absolute;
+    width: 160px;
+    height: 100px;
+
+}
